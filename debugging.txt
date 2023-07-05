@@ -1,0 +1,59 @@
+Debugging is the process of finding and solving errors in code.
+A bug is errror in code that prevents it from functioning the way it was intended
+A bug is a glitch that prevents a software from achieving desired output
+
+
+Types of bugs
+-syntax errors;
+These occur when the code doesnot follow the syntactical rules. eg "<div classhome></div?
+-Logic errors;
+These occur when the steps take  to perform the task correctly are not well done eg an infinite loop.
+-Design bug
+this is a bug that is carried from the designers to the actua; implemention of the code
+this is a bug caused by poor and/or inadequate design decisions eg poor user interface(ui), wrong datatypes
+-Runtime errors
+these errors cannot be noticed until the code has actually been run eg dividing with a null  value, dividing a number by zero, adding a string to an integer
+
+
+
+
+Why  debug?
+-To remove errors from code
+-To save resources ie time and money
+-Enables to improve productivity and efficiency
+
+
+HOW DO WE DEBUG?  (5ps)
+Prior 
+Planning
+prevents
+Poor
+Perfomance
+
+Debugging principles
+=> Bugs caught early are the easiest to fix 
+=> Once bugs escape they become  very hard to 
+find ie since you most likely dont have the details
+in your minds and the code base has grown
+
+
+THE DEBUGGING CYCLE
+1. Coding (writing the code)
+2. Testing (checking the code functionality/output)
+3. If the code is not working , go on to debug
+5.Then repeat cycle  as they all go
+
+A BUG SEEKING CYCLE
+difference between debugging and testing;
+Debugging is what can i do to fixe erronous code while testing 
+is what i need to do to break my code eg 
+
+
+STEPS OF DEBUGGING
+1.Plan your attack
+2.Backup your files(interchangeable)using version control/ github to keep track of changes in my software
+3.Isolate the block of code that could have the error ie  commenting it out 
+4. Find the actual line(s)with the error or bugging
+5.Fix the error dont patch it 
+6. Test the fix you have just done
+7.look for similar bugs
